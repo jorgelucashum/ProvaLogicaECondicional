@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaLogicaECondicional", "ProvaLogicaECondicional\ProvaLogicaECondicional.csproj", "{812D31A7-36BB-4564-BDCE-57D0FF0D7E60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{812D31A7-36BB-4564-BDCE-57D0FF0D7E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812D31A7-36BB-4564-BDCE-57D0FF0D7E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812D31A7-36BB-4564-BDCE-57D0FF0D7E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812D31A7-36BB-4564-BDCE-57D0FF0D7E60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31783C0F-C3A8-4B59-A9D3-8F015562775C}
+	EndGlobalSection
+EndGlobal
