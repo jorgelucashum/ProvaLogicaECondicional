@@ -12,7 +12,7 @@ namespace ProvaLogicaECondicional
         {
             
             // Exercicio 1 - Estrutura Sequencial
-            Console.WriteLine("1) Fazer um programa para ler as entradas e fazer a operação entre elas. \n");
+            Console.WriteLine("1) Fazer um programa para ler as entradas e fazer a operação entre elas. (3 tipos de operações diferentes com 6 valores): \n");
             for (int cont = 0; cont < 3; cont++) 
             {
                 Console.WriteLine("Digite as 3 primeiras entradas(Ex: 1 2,20 3): ");
@@ -33,22 +33,16 @@ namespace ProvaLogicaECondicional
             
             // Exercicio 2
             Console.WriteLine("2) Fazer um programa para ler o valor do raio de um círculo e motrar o valor com 4 casas decimais");
-            for(int cont = 0; cont < 3; cont++)
-            {
                 Console.WriteLine("Digite o valor do raio: ");
                 double raio = double.Parse(Console.ReadLine()); //double = long float
                 double area = 3.14159 * (raio*raio);
                 Console.WriteLine("o valor da área do círuclo é: " + Math.Round(area, 4)); //mostrar 4 casas decimais
-            }
+            
 
             
 
 
             // Exercicio - 3
-
-            for (int cont = 0; cont < 2; cont++)
-            {
-
                 Console.WriteLine("\n3)Digite o codigo do alimento e a quantidade do alimento desejado. Exemplo: 3 2 \n1-Cachorro Quente\n2-X Salada\n3-X Bacon\n4-Torrada simples\n5-Refrigerente\n");
                 string[] entradas = Console.ReadLine().Split();
                 float l1 = float.Parse(entradas[0]), q1 = float.Parse(entradas[1]);
@@ -79,14 +73,11 @@ namespace ProvaLogicaECondicional
                         Console.WriteLine("Codigo invalido");
                         break;
                 }
-            }
+            
 
 
 
             // Exercicio - 4
-
-            for (int cont = 0; cont < 4; cont++) 
-                { 
             Console.WriteLine("\n4)Digite os valores de a, b e c em sequencia para realizar a equação do 2º grau. Exemplo: 10 20,1 5,1 ");
             string[] abc = Console.ReadLine().Split();
             float a = float.Parse(abc[0]), b = float.Parse(abc[1]), c = float.Parse(abc[2]);
@@ -100,13 +91,13 @@ namespace ProvaLogicaECondicional
                 {
                     Console.WriteLine("Impossível calcular");
                 }
-            }
+            
 
 
             // Exercicio - 5;
             for (int cont = 0; cont == 0;)
             {
-                Console.WriteLine("\n5) Digite a senha: ");
+                Console.WriteLine("\n5) Digite a senha: (senha correta = 2002)");
                 int senha = int.Parse(Console.ReadLine());
                 if (senha == 2002) {
                     Console.WriteLine("Acesso permitido\n");
